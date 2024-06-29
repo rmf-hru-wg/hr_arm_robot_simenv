@@ -18,5 +18,6 @@ COPY src/crane_x7_hr_edu/ /home/ubuntu/hr_ws/src/crane_x7_hr_edu/
 # build all the file
 RUN cd /home/ubuntu/hr_ws \
     && source /opt/ros/humble/setup.bash \
-    && colcon build \
-    && echo 'source /home/ubuntu/hr_ws/install/local_setup.bash' >> ~/.bashrc
+    && colcon build
+
+RUN echo 'source /home/ubuntu/hr_ws/install/local_setup.bash' >> ~/.bashrc
