@@ -1,4 +1,4 @@
-# **HR arm simulation environment**
+# **HR arm robot simulation environment**
 
 電気通信大学ロボメカ工房HR部隊の新入生講習のドキュメントです。  
 Windows(一応Macでも可能)の上でDockerを用い、Ubuntuのデスクトップ環境をつくったうえで、ROS2とGazeboを用いてアームロボットをシミュレーションする環境の作成について書いてあります。
